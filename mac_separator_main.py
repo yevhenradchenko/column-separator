@@ -12,7 +12,7 @@ def do():
             for j in i.split(','):
                 list.append(j.lower()) # Edit all uppercase symbols to lowercase
 
-    with open('output_file_name.txt', 'w') as f_out: # Name and typ of file you want to see as output source
+    with open('output_file_name.txt', 'w') as f_out: # Name and type of file you want to see as output source
         f_out.write(','.join(list))
 
 
